@@ -1,0 +1,120 @@
+.home-page header {
+    background-image: url(../utils/img/header.jpg);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2 {
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
+.paskages-section {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url(../utils/img/paskages.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+
+img {
+    border-style:solid;
+    border-width: 5px;
+}
+
+.section__padding {
+    padding: 4rem 4rem;
+}
+
+.footer {
+    background-color: #2d2d32;
+
+}
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Style for the footer container */
+.bg-dark {
+    background-color: #343a40; /* Dark background color */
+}
+
+.text-light {
+    color: #ffffff; /* Light text color */
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Style for the footer links */
+.sb__footer-links-div,
+.sb__fotter-links_div {
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem; /* Adjust heading font size */
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #ffffff; /* Link text color */
+    text-decoration: none;
+}
+
+/* Style for social media icons */
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia img {
+    width: 30px; /* Adjust the width of the social media icons */
+    margin-right: 10px; /* Add some space between the icons */
+}
+/* Add flex styles to the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+/* Adjust the width of each column */
+.sb__footer-links-div,
+.sb__fotter-links_div,
+.socialmedia {
+    flex: 0 0 23%; /* Adjust the width of each column as needed */
+}
+
+/* Add some spacing between columns */
+.sb__footer-links-div,
+.sb__fotter-links_div,
+.sb__footer-links_div:last-child,
+.sb__fotter-links_div:last-child,
+.socialmedia {
+    margin-right: 1.5%; /* Adjust as needed */
+}
